@@ -10,5 +10,6 @@ app.listen(3000, function(){
 app.get('/',(req, res) => {
   store.read("index", {authentication: { username: "yuyuttikunnhatennsainanodaxa", password: "fwuasicjnks@fecknfaweioknmjsedfvnihowfveomfowe" }}).then(data => {
     res.render('index',{data:data});
+    console.log(data)
   });
 })
