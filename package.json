@@ -1,17 +1,25 @@
 {
-  "name": "LauRo-Esports_memberlist",
+  "name": "lauro-member-list",
   "version": "1.0.0",
-  "description": "",
+  "description": "LauRoメンバーの一覧表",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LauroDeveloperTeam/LauRo-member-list.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LauroDeveloperTeam/LauRo-member-list/issues"
+  },
+  "homepage": "https://github.com/LauroDeveloperTeam/LauRo-member-list#readme",
   "dependencies": {
-    "ejs-cli": "^3.1.8",
-    "express": "^4.18.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
     "request": "^2.88.2",
     "stein-js-client": "^0.0.2"
   }
