@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node index.js",
-    "start": "node index.js",
-    "ejs": "ejs-cli --base-dir ejs/'index.ejs' --out dest/"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
